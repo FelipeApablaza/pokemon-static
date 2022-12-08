@@ -18,6 +18,7 @@ export const NoFavorites = () => {
         width={250}
         height={250}
         css={{ opacity: 0.1 }}
+        alt='img'
       />
     </Container>
   );

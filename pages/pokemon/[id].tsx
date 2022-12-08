@@ -18,7 +18,7 @@ const PokemonPage: NextPage<Props> = ({ pokemon }) => {
 
   useEffect(() => {
     setIsInFavorites(localFavorites.existInFavorites(pokemon.id));
-  }, []);
+  }, [pokemon]);
 
   return (
     <Layout myTitle={pokemon.name}>
